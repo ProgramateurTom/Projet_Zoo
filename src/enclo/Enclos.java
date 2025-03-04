@@ -1,8 +1,11 @@
 package enclo;
+import animaux.Animaux;
+
 public class Enclos {
     private String type;
     private int capacity;
     private int size;
+    private String proprete;
 
     public void enclosLion(String type, int capacity, int size){
         this.type = type;
@@ -20,5 +23,9 @@ public class Enclos {
         this.type = type;
         this.capacity = capacity;
         this.size = size;
+    }
+
+    public void proprete(String proprete){
+        this.proprete = proprete;
     }
 }
